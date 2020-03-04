@@ -1,0 +1,31 @@
+{
+    "DBInstanceIdentifier": "rds-example",
+    "DBInstanceClass": "db.m5.xlarge",
+    "Engine": "mysql",
+    "DBInstanceStatus": "available",
+    "MultiAZ": true,
+    "EngineVersion": "5.6.41",
+    "AutoMinorVersionUpgrade": true,
+    "ReadReplicaDBInstanceIdentifiers": [],
+    "LicenseModel": "general-public-license",
+    "OptionGroupMemberships": [
+        {
+            "OptionGroupName": "default:mysql-5-6",
+            "Status": "in-sync"
+        }
+    ],
+    "StorageType": "gp2",
+    "StorageEncrypted": true,
+    "DomainMemberships": [],
+    "CopyTagsToSnapshot": true,
+    "MonitoringInterval": 60,
+    "PerformanceInsightsEnabled": true,
+    "EnabledCloudwatchLogsExports": [
+        "audit",
+        "error",
+        "general",
+        "slowquery"
+    ],
+    "DeletionProtection": true,
+    "AssociatedRoles": []
+}
