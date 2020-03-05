@@ -7,6 +7,7 @@ This is a Python script for getting the temperature/time values for the indicate
 updating the citydata structure. 
 
 Running the script we get the following output:
+	$ get_temp.py
 
 	Current Temp in Newport Beach, CA. USA is  60.25 degrees Farenheit at  2020-03-04 09:30:59 PST
 
@@ -19,7 +20,8 @@ Q2) 	getOptionGroupName.sh	-- bash one-liner
 
 Extract the OptionGrouName parameter value from the JSON file.
 
-Running the script exucutes the line below and produces the following output:
+Running the script executes the line below and produces the following output:
+	$ getOptionGroupName.sh (or exucute the line below at the shell prompt.)
 
 	$ grep OptionGroupName dat.json | awk '{print $2}' | sed 's/"//g' | sed 's/,//g'
 	default:mysql-5-6
