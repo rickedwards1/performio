@@ -14,7 +14,7 @@ GMT_OFFSET = 4
 TZ_ABBREV = 5
 
 #Define City Characteristics
-citydata = [[ "Newport Beach, CA. USA", 33.6189, -117.9298, "Farenheit", -8, "PST" ],
+citydata = [[ "Newport Beach, CA. USA", 33.6189, -117.9298, "Farenheit", -7, "PDT" ],
             [ "Melbourne, AUS", -37.8136, 144.9631, "Celsius", +11, "AEDT" ]]
 
 for i in range(len(citydata)):
